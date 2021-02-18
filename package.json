@@ -1,0 +1,22 @@
+{
+  "name": "teama",
+  "description": "TeamA ERP System powered by the Frappe Framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giangdn/teama.git"
+  },
+  "homepage": "https://teama.io",
+  "author": "TeamA Technologies Pvt. Ltd.",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "snyk": "^1.290.1"
+  },
+  "dependencies": {
+    "onscan.js": "^1.5.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
+}
